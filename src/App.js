@@ -5,19 +5,24 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>I am exploring React</h1>
+        <Person name="Parrot"></Person>
       </header>
+    </div>
+    
+  );
+}
+
+function Person(prob){
+  const personStyle = {
+    border:'2px solid red',
+    margin: '10px',
+    padding: '2px'
+  }
+  return(
+    <div style={personStyle}>
+      <h1>Name: {prob.name}</h1>
+      <p></p>
     </div>
   );
 }
