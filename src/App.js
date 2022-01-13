@@ -36,6 +36,7 @@ function Product(probs){
   const btn={
     borderRadius: '18px',
     backgroundColor: "#1473e6",
+    color: 'white',
     margin:'2px',
     border: '2px',
     transition: 'box-shadow'
